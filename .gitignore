@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.log
+*.log.*
+
+# Data
+data/
+logs/
+*.csv
+*.txt
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+postgres_data/
+*.pid
+*.lock
+docker-compose.override.yml
+
+# Airflow
+airflow.cfg
+airflow.db
+webserver_config.py
+logs/
+dags/__pycache__/
+dags/*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+*.crt
+*.p12
+
+# Temporary files
+*.tmp
+*.temp
+run_etl.ps1  
