@@ -1,4 +1,4 @@
-# ETL pipeline для выгрузки данных из SQL Server 2008
+# ETL pipeline для выгрузки данных из SQL Server 2000
 
 ## Задача
 
